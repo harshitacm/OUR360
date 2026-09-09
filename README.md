@@ -1,75 +1,89 @@
-# React + TypeScript + Vite
+# OUR360
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### A private space to understand yourself.
 
-Currently, two official plugins are available:
+OUR360 is an inclusive, age-aware health and self-discovery platform designed to help people **learn, ask, connect and grow** in one safe space.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Instead of focusing only on health tracking, OUR360 brings together **health education, private AI support, community interaction, therapy support and qualified mentors**.
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*  **Personalized Knowledge Hub**
+  Age and interest-based health education and easy-to-understand content.
 
-## Expanding the ESLint configuration
+*  **Private AI Assistant**
+  Ask sensitive questions privately without embarrassment or judgment.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+*  **Community Support**
+  Connect with others, share experiences and provide peer support.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+*  **Therapy Support**
+  Access guided wellbeing resources and pathways toward professional help.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+*  **Qualified Mentors**
+  Connect with verified professionals for appropriate guidance.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+*  **Rewards & Streaks**
+  Earn XP, badges and progress through learning and engagement.
 
+*  **OUR360+**
+  Advanced learning experiences, personalization and additional support.
+
+## How It Works
+
+```text
+User
+  ↓
+Age + Gender + Interests
+  ↓
+Personalization
+  ↓
+┌──────────────┬──────────────┬──────────────┐
+│  Knowledge   │   Private AI │  Community   │
+└──────────────┴──────────────┴──────────────┘
+              ↓
+     Therapy + Mentors
+              ↓
+       Learn & Engage
+              ↓
+       Rewards & Growth
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## What Makes OUR360 Different?
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+OUR360 focuses on **understanding yourself rather than simply tracking yourself**.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+> **Ask what you can't ask anyone. Learn what you need to know. Connect when you need support.**
 
-```
+The platform combines **AI + health education + peer support + therapy pathways + qualified mentors** into one inclusive ecosystem.
+
+## Privacy & Safety
+
+* Privacy-first design
+* No mandatory login
+* Minimal personal data collection
+* Age-aware content
+* Moderated community spaces
+* Qualified mentor verification
+* AI designed for education and guidance, not diagnosis
+
+## Technology Stack
+
+* **Frontend:** React.js, TypeScript, Tailwind CSS
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB / Firebase
+* **AI:** Generative AI / LLM
+* **Real-Time Communication:** WebSocket / Socket.io
+* **APIs:** REST APIs
+* **Deployment:** Cloud
+* **Version Control:** Git & GitHub
+
+## Project Vision
+
+OUR360 aims to make health knowledge and support **more accessible, understandable, inclusive and judgment-free**, helping users make better-informed decisions and seek appropriate support when needed.
+
+## Status
+
+**Prototype / SIH 2026**
+
+The current prototype demonstrates the core OUR360 experience, including onboarding, personalized discovery, knowledge, private AI, community support, therapy/mentor pathways, rewards and OUR360+.
